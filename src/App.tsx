@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
+import ChatbotWidget from './components/ChatbotWidget';
 import Home from './pages/Home';
 import About from './pages/About';
 import Fragrances from './pages/Fragrances';
@@ -68,6 +69,9 @@ function App() {
             />
           </Routes>
         </AnimatePresence>
+        
+        {/* AI Chatbot Widget */}
+        <ChatbotWidget />
       </div>
     </Router>
   );

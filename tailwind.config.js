@@ -11,7 +11,9 @@ export default {
         secondary: '#666666', 
         accent: '#f8f6f3',
         warm: '#f5f2ed',
+        beige: '#f5f2ed',
         gold: '#d4af37',
+        'luxury-gold-dark': '#b8941f',
         luxury: {
           black: '#1a1a1a',
           'black-light': '#2d2d2d',
