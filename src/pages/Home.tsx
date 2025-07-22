@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         {/* Background Image with Parallax */}
         <motion.div
           className="absolute inset-0 z-0"
@@ -31,31 +31,32 @@ const Home = () => {
         </motion.div>
 
         {/* Hero Content */}
-        <div className="relative z-10 text-center text-white section-padding">
+        <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 py-8">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <h1 className="heading-serif text-4xl md:text-6xl lg:text-7xl mb-6 leading-tight">
+            <h1 className="heading-serif text-3xl sm:text-4xl md:text-6xl lg:text-7xl mb-4 sm:mb-6 leading-tight">
               <span className="text-white">L'Art du</span>
               <br />
               <span className="text-gold">Parfum</span>
             </h1>
             
             <motion.p
-              className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed"
+              className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed px-4"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.8 }}
             >
               Discover our collection of artisanal fragrances,
-              <br />
+              <br className="hidden sm:block" />
+              <span className="sm:hidden"> </span>
               crafted with the finest natural ingredients
             </motion.p>
 
             <motion.div
-              className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+              className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.1 }}
@@ -78,12 +79,12 @@ const Home = () => {
 
         {/* Scroll Indicator */}
         <motion.button
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white"
+          className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 text-white"
           onClick={scrollToFeatured}
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
         >
-          <ChevronDown className="w-8 h-8" />
+          <ChevronDown className="w-6 h-6 sm:w-8 sm:h-8" />
         </motion.button>
       </section>
 

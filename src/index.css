@@ -23,11 +23,11 @@
 
 @layer components {
   .btn-primary {
-    @apply px-8 py-3 bg-gold text-white font-medium tracking-wide uppercase text-sm transition-all duration-300 hover:bg-luxury-gold-dark hover:shadow-lg;
+    @apply px-6 sm:px-8 py-2.5 sm:py-3 bg-gold text-white font-medium tracking-wide uppercase text-xs sm:text-sm transition-all duration-300 hover:bg-luxury-gold-dark hover:shadow-lg;
   }
   
   .btn-secondary {
-    @apply px-8 py-3 border border-gold text-gold font-medium tracking-wide uppercase text-sm transition-all duration-300 hover:bg-gold hover:text-white;
+    @apply px-6 sm:px-8 py-2.5 sm:py-3 border border-gold text-gold font-medium tracking-wide uppercase text-xs sm:text-sm transition-all duration-300 hover:bg-gold hover:text-white;
   }
   
   .section-padding {
