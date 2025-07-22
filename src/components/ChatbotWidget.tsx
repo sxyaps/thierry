@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Send, X } from 'lucide-react';
 import { chatbotService } from '../services/chatbot';
 import type { Message } from '../services/chatbot';
-import PerfumeBottleIcon from './PerfumeBottleIcon';
+import ElegantChatIcon from './ElegantChatIcon';
 
 const ChatbotWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -104,7 +104,7 @@ const ChatbotWidget = () => {
         animate={isOpen ? { opacity: 0, pointerEvents: 'none' } : { opacity: 1, pointerEvents: 'auto' }}
       >
         <div className="relative">
-          <PerfumeBottleIcon className="w-6 h-6" />
+          <ElegantChatIcon className="w-6 h-6" />
           <motion.div
             className="absolute -top-1 -right-1 w-3 h-3 bg-white rounded-full"
             animate={{ scale: [1, 1.2, 1] }}
@@ -143,7 +143,7 @@ const ChatbotWidget = () => {
               <div className="bg-gradient-to-r from-warm to-beige p-4 flex items-center justify-between">
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-gold rounded-full flex items-center justify-center">
-                    <PerfumeBottleIcon className="w-5 h-5 text-white" />
+                    <ElegantChatIcon className="w-5 h-5 text-white" />
                   </div>
                   <div>
                     <h3 className="font-serif text-lg text-primary">Virtual Perfumist</h3>
