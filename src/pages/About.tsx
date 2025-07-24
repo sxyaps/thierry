@@ -138,11 +138,11 @@ const About = () => {
             >
               <img
                 src="/thierry.jpg"
-                alt="Thierry Dubois, Master Perfumer"
+                alt="Thierry Stravers, Master Perfumer"
                 className="w-full h-96 object-cover"
               />
               <div className="absolute bottom-6 left-6 bg-luxury-black/90 backdrop-blur-sm p-4">
-                <p className="font-medium text-luxury-white">Thierry Dubois</p>
+                <p className="font-medium text-luxury-white">Thierry Stravers</p>
                 <p className="text-sm text-luxury-white-dark">Master Perfumer & Founder</p>
               </div>
             </motion.div>
@@ -154,27 +154,28 @@ const About = () => {
               transition={{ duration: 0.8 }}
             >
               <h2 className="heading-serif text-3xl md:text-4xl mb-8 text-luxury-white">
-                A Legacy of Scent
+                A Family Legacy from Dordogne
               </h2>
               <div className="space-y-6 text-body">
                 <p>
-                  Born in Grasse, the perfume capital of the world, Thierry Dubois
-                  grew up surrounded by the intoxicating scents of jasmine and rose
-                  fields. His grandfather, a renowned perfumer, taught him that
-                  fragrance is not just about smell—it's about emotion, memory,
-                  and the ineffable quality that makes someone unforgettable.
+                  With roots deeply planted in the beautiful Dordogne region of France, 
+                  Thierry Stravers discovered his passion for fragrance not in laboratories, 
+                  but in the pristine landscapes of his homeland. Growing up surrounded by 
+                  lavender fields, wild herbs, and ancient oak forests, he developed an 
+                  unwavering preference for nature's authentic perfumes over synthetic creations.
                 </p>
                 <p>
-                  After training at the prestigious École Supérieure du Parfum
-                  and working with legendary houses in Paris, Thierry founded
-                  his atelier with a simple mission: to create fragrances that
-                  honor the traditions of French perfumery while expressing
-                  the individuality of modern life.
+                  What sets Thierry apart is his profound devotion to family—a value that 
+                  flows through every aspect of his work. Each fragrance in our collection 
+                  bears the name of one of his three beloved sons: the refreshing Aqua di Luca, 
+                  the bold Maximillian, and the timeless Classique. These aren't just perfumes; 
+                  they're tributes to the next generation, carrying forward a legacy of love 
+                  and craftsmanship.
                 </p>
                 <p>
-                  "A great fragrance should be like a beautiful melody—
-                  complex enough to discover something new with each encounter,
-                  yet harmonious enough to feel like home."
+                  "Nature gives us the most beautiful scents—my role is simply to capture 
+                  their essence and honor my family through each creation. Every bottle 
+                  tells the story of my sons and our connection to the French countryside."
                 </p>
               </div>
             </motion.div>
