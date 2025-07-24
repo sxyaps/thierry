@@ -15,66 +15,55 @@ export interface Fragrance {
 export const fragrances: Fragrance[] = [
   {
     id: 1,
-    name: "Noir Élégance",
-    description: "A sophisticated blend of dark florals and warm woods, embodying the essence of Parisian nights.",
+    name: "Aqua di Luca",
+    description: "A refreshing aquatic fragrance that captures the essence of pristine Mediterranean waters with crisp citrus and marine notes.",
     notes: {
-      top: ["Bergamot", "Black Pepper", "Pink Grapefruit"],
-      middle: ["Rose Noir", "Jasmine", "Violet"],
-      base: ["Sandalwood", "Vanilla", "Musk"]
+      top: ["Sea Breeze", "Bergamot", "Lemon", "Mint"],
+      middle: ["Marine Accord", "Jasmine", "Cyclamen"],
+      base: ["White Musk", "Cedar", "Ambergris"]
     },
     price: 180,
-    image: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&h=600&fit=crop&q=80",
+    image: "/Acqua di Luca 2.png",
     featured: true
   },
   {
     id: 2,
-    name: "Lumière Dorée",
-    description: "Radiant and luminous, this fragrance captures the golden hour with citrus brightness and warm amber.",
+    name: "Maximillian",
+    description: "A bold and sophisticated masculine fragrance with powerful woody and spicy notes, embodying strength and elegance.",
     notes: {
-      top: ["Sweet Orange", "Mandarin", "Lemon Zest"],
-      middle: ["Neroli", "Tuberose", "White Tea"],
-      base: ["Amber", "Cedar", "White Musk"]
+      top: ["Black Pepper", "Cardamom", "Grapefruit"],
+      middle: ["Lavender", "Geranium", "Nutmeg"],
+      base: ["Sandalwood", "Vetiver", "Patchouli"]
     },
-    price: 165,
-    image: "https://images.unsplash.com/photo-1588405748880-12d1d2a59d75?w=400&h=600&fit=crop&q=80",
+    price: 220,
+    image: "/maximillliann.png",
     featured: true
   },
   {
     id: 3,
-    name: "Bois Mystique",
-    description: "Deep and enigmatic, featuring rare woods and exotic spices for the discerning connoisseur.",
+    name: "Classique",
+    description: "A timeless and refined fragrance that epitomizes classic elegance with harmonious floral and oriental notes.",
     notes: {
-      top: ["Cardamom", "Cinnamon", "Clove"],
-      middle: ["Oud", "Rose Petals", "Saffron"],
-      base: ["Sandalwood", "Patchouli", "Benzoin"]
+      top: ["Rose Petals", "Orange Blossom", "Pink Pepper"],
+      middle: ["Jasmine", "Ylang-Ylang", "Iris"],
+      base: ["Vanilla", "Sandalwood", "White Musk"]
     },
-    price: 220,
-    image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400&h=600&fit=crop&q=80"
+    price: 195,
+    image: "/classique.png",
+    featured: true
   },
   {
     id: 4,
-    name: "Fleur Sauvage",
-    description: "Wild and untamed, this fragrance celebrates the beauty of nature with fresh florals and green notes.",
+    name: "The Home Perfume",
+    description: "A warm and inviting ambient fragrance designed to transform your living space into a luxurious sanctuary.",
     notes: {
-      top: ["Green Leaves", "Petitgrain", "Cucumber"],
-      middle: ["Wild Jasmine", "Lily of the Valley", "Peony"],
-      base: ["White Cedar", "Moss", "Soft Musk"]
+      top: ["Bergamot", "Lemon", "Green Leaves"],
+      middle: ["White Tea", "Jasmine", "Lily"],
+      base: ["Cedar", "Soft Musk", "Amber"]
     },
     price: 155,
     image: "https://images.unsplash.com/photo-1615634260194-d425d3aba445?w=400&h=600&fit=crop&q=80",
     featured: true
-  },
-  {
-    id: 5,
-    name: "Velours Rouge",
-    description: "Opulent and sensual, with rich red florals and luxurious oriental notes that leave a lasting impression.",
-    notes: {
-      top: ["Black Cherry", "Pink Pepper", "Mandarin"],
-      middle: ["Red Rose", "Geranium", "Clary Sage"],
-      base: ["Velvet Woods", "Tonka Bean", "Labdanum"]
-    },
-    price: 195,
-    image: "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=400&h=600&fit=crop&q=80"
   }
 ];
 
