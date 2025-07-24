@@ -137,7 +137,7 @@ const About = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&h=600&fit=crop&q=80"
+                src="/thierry.jpg"
                 alt="Thierry Dubois, Master Perfumer"
                 className="w-full h-96 object-cover"
               />

@@ -62,7 +62,7 @@ export const fragrances: Fragrance[] = [
       base: ["Cedar", "Soft Musk", "Amber"]
     },
     price: 155,
-    image: "https://images.unsplash.com/photo-1615634260194-d425d3aba445?w=400&h=600&fit=crop&q=80",
+    image: "/home perfume.png",
     featured: true
   }
 ];
